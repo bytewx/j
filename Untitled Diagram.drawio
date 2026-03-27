@@ -1,0 +1,143 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.1">
+  <diagram name="Page-1" id="XXrZNVbYpYCagSdAklLs">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" value="Слой данных" vertex="1">
+          <mxGeometry height="436" width="267" x="22" y="3110" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="2" style="whiteSpace=wrap;strokeWidth=2;" value="DWH" vertex="1">
+          <mxGeometry height="54" width="94" x="94" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="2" style="whiteSpace=wrap;strokeWidth=2;" value="Витрина Продажи" vertex="1">
+          <mxGeometry height="54" width="192" x="46" y="147" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="2" style="whiteSpace=wrap;strokeWidth=2;" value="Витрина Финансы" vertex="1">
+          <mxGeometry height="54" width="192" x="46" y="251" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="2" style="whiteSpace=wrap;strokeWidth=2;" value="Витрина Клиенты" vertex="1">
+          <mxGeometry height="54" width="189" x="47" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" value="Слой интеграции данных" vertex="1">
+          <mxGeometry height="436" width="225" x="43" y="2624" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="7" style="whiteSpace=wrap;strokeWidth=2;" value="ESB / ETL" vertex="1">
+          <mxGeometry height="54" width="129" x="56" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="7" style="whiteSpace=wrap;strokeWidth=2;" value="API Gateway" vertex="1">
+          <mxGeometry height="54" width="150" x="46" y="147" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="7" style="whiteSpace=wrap;strokeWidth=2;" value="Event Bus" vertex="1">
+          <mxGeometry height="54" width="129" x="56" y="251" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="7" style="whiteSpace=wrap;strokeWidth=2;" value="Backup" vertex="1">
+          <mxGeometry height="54" width="111" x="65" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="12" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" value="Процессный уровень" vertex="1">
+          <mxGeometry height="540" width="245" x="33" y="2034" as="geometry" />
+        </mxCell>
+        <mxCell id="13" parent="12" style="whiteSpace=wrap;strokeWidth=2;" value="RDS / pricing" vertex="1">
+          <mxGeometry height="54" width="154" x="54" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="14" parent="12" style="whiteSpace=wrap;strokeWidth=2;" value="Онлайн заказы" vertex="1">
+          <mxGeometry height="54" width="170" x="46" y="147" as="geometry" />
+        </mxCell>
+        <mxCell id="15" parent="12" style="whiteSpace=wrap;strokeWidth=2;" value="Платежи" vertex="1">
+          <mxGeometry height="54" width="124" x="68" y="251" as="geometry" />
+        </mxCell>
+        <mxCell id="16" parent="12" style="whiteSpace=wrap;strokeWidth=2;" value="Возвраты" vertex="1">
+          <mxGeometry height="54" width="129" x="66" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="17" parent="12" style="whiteSpace=wrap;strokeWidth=2;" value="Логистика" vertex="1">
+          <mxGeometry height="54" width="136" x="62" y="459" as="geometry" />
+        </mxCell>
+        <mxCell id="18" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" value="Операционный уровень" vertex="1">
+          <mxGeometry height="956" width="270" x="20" y="1028" as="geometry" />
+        </mxCell>
+        <mxCell id="19" parent="18" style="whiteSpace=wrap;strokeWidth=2;" value="ERP" vertex="1">
+          <mxGeometry height="54" width="87" x="100" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="20" parent="18" style="whiteSpace=wrap;strokeWidth=2;" value="CRM" vertex="1">
+          <mxGeometry height="54" width="90" x="98" y="147" as="geometry" />
+        </mxCell>
+        <mxCell id="21" parent="18" style="whiteSpace=wrap;strokeWidth=2;" value="SCM / WMS" vertex="1">
+          <mxGeometry height="54" width="139" x="73" y="251" as="geometry" />
+        </mxCell>
+        <mxCell id="22" parent="18" style="whiteSpace=wrap;strokeWidth=2;" value="HRMS" vertex="1">
+          <mxGeometry height="54" width="99" x="94" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="23" parent="18" style="whiteSpace=wrap;strokeWidth=2;" value="POS / Кассы" vertex="1">
+          <mxGeometry height="54" width="150" x="68" y="459" as="geometry" />
+        </mxCell>
+        <mxCell id="24" parent="18" style="whiteSpace=wrap;strokeWidth=2;" value="Интернет-магазин" vertex="1">
+          <mxGeometry height="54" width="195" x="46" y="563" as="geometry" />
+        </mxCell>
+        <mxCell id="25" parent="18" style="whiteSpace=wrap;strokeWidth=2;" value="MDM" vertex="1">
+          <mxGeometry height="54" width="93" x="97" y="667" as="geometry" />
+        </mxCell>
+        <mxCell id="26" parent="18" style="whiteSpace=wrap;strokeWidth=2;" value="Печать ценников" vertex="1">
+          <mxGeometry height="54" width="185" x="50" y="771" as="geometry" />
+        </mxCell>
+        <mxCell id="27" parent="18" style="whiteSpace=wrap;strokeWidth=2;" value="IoT / Видео" vertex="1">
+          <mxGeometry height="54" width="145" x="71" y="875" as="geometry" />
+        </mxCell>
+        <mxCell id="28" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" value="Тактический уровень" vertex="1">
+          <mxGeometry height="460" width="294" x="8" y="518" as="geometry" />
+        </mxCell>
+        <mxCell id="29" parent="28" style="whiteSpace=wrap;strokeWidth=2;" value="Demand planning" vertex="1">
+          <mxGeometry height="54" width="184" x="63" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="30" parent="28" style="whiteSpace=wrap;strokeWidth=2;" value="PIM&#xa;Управление данными" vertex="1">
+          <mxGeometry height="78" width="219" x="46" y="147" as="geometry" />
+        </mxCell>
+        <mxCell id="31" parent="28" style="whiteSpace=wrap;strokeWidth=2;" value="Витрина данных" vertex="1">
+          <mxGeometry height="54" width="180" x="65" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="32" parent="28" style="whiteSpace=wrap;strokeWidth=2;" value="ECM / EDMS" vertex="1">
+          <mxGeometry height="54" width="145" x="83" y="379" as="geometry" />
+        </mxCell>
+        <mxCell id="33" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" value="Стратегический уровень" vertex="1">
+          <mxGeometry height="460" width="291" x="10" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="34" parent="33" style="whiteSpace=wrap;strokeWidth=2;" value="BSS&#xa;Оценка, KPI, прогноз" vertex="1">
+          <mxGeometry height="78" width="216" x="46" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="35" parent="33" style="whiteSpace=wrap;strokeWidth=2;" value="BI / Analytics" vertex="1">
+          <mxGeometry height="54" width="155" x="76" y="171" as="geometry" />
+        </mxCell>
+        <mxCell id="36" parent="33" style="whiteSpace=wrap;strokeWidth=2;" value="AI / ML insights" vertex="1">
+          <mxGeometry height="54" width="170" x="69" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="37" parent="33" style="whiteSpace=wrap;strokeWidth=2;" value="DSS" vertex="1">
+          <mxGeometry height="54" width="85" x="111" y="379" as="geometry" />
+        </mxCell>
+        <mxCell id="38" edge="1" parent="1" source="33" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="28" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="39" edge="1" parent="1" source="28" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="18" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="40" edge="1" parent="1" source="18" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="12" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41" edge="1" parent="1" source="12" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42" edge="1" parent="1" source="7" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
